@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>게시판</title>
+</head>
+<body>
+    <div class="container">
+        <h1>게시판</h1>
+        <form id="postForm">
+            <label for="title">제목:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="content">내용:</label>
+            <textarea id="content" name="content" required></textarea>
+            <button type="submit">게시</button>
+        </form>
+        <div id="posts"></div>
+    </div>
+
+    <script src="client.js"></script>
+</body>
+</html>
+
+
